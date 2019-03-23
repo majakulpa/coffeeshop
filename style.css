@@ -1,0 +1,102 @@
+body {
+    margin:10px 0px; padding:0px;
+    text-align:center;
+    align:center;
+}
+.banner {
+	background-image:linear-gradient(rgba(230,230,230,0.5), rgba(230,230,230,0.5)),  url("images/coffee.jpg");
+	text-align: center;
+	padding: 50px;
+	background-repeat: no-repeat;
+	color: white;
+	margin: 20px;
+	
+}
+
+#logo {
+	margin-bottom: 200px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.secondLine {
+	font-size: 25px;
+}
+
+#panel1 {
+	background-image: url('images/barista.jpeg');
+	background-size: cover;
+	float: left;
+	
+	border: none;
+	margin: 20px;
+	color: white;
+	display: inline-block;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+#panel2 {
+	background-image: url('images/menu.jpeg');
+	background-size: cover;
+	float: left;
+	border: none;
+	margin: 20px;
+	color: white;
+	display: inline-block;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+#panel3 {
+	background-image: url('images/cafe.jpg') ;
+	background-size: cover;
+	float: left;
+	border: none;
+	margin: 20px;
+	color: white;
+	display: inline-block;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+
+}
+.secondLine {
+	
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+li {
+	float: left;
+	list-style-type: none;
+	margin: 50px;
+	font-size: 200%;
+}
+
+.list {
+	background-color: lightgrey;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+
+}
+
+#footer {
+	color: white;
+	background-color: black;
+	width: 100%;
+	padding: 10px;
+}
